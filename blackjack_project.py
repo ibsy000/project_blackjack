@@ -298,6 +298,8 @@ class Blackjack:
 
 def play():
 
+    os.system("cls")
+
     print("""
     Hello and Welcome to Online Blackjack Casino!
     The only game we have here is Blackjack!
