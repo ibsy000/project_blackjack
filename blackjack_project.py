@@ -21,7 +21,7 @@ class Blackjack:
         self.player_total = []
         self.dealer_total = []
 
-        self.pocket_change = 50
+        self.pocket_change = 150
         self.bet_amount = 0
 
     def bet(self):
@@ -344,6 +344,16 @@ def play():
 
 
             elif hit_or_stay == 'quit':
+
+                os.system("cls")
+
+                print("""
+    ---------------------------------------------------------
+    Thank you for playing at ♥♦♣♠Online Blackjack Casino!♠♣♦♥
+    I hope you had fun!
+    Come back and spend your money again!
+    ---------------------------------------------------------
+                """)
                 break
 
 
